@@ -1,11 +1,7 @@
 import java.util.Scanner;
 
 class Account {
-    private String accNo;
-    private String name;
-    private String address;
-    private String phno;
-    private String dob;
+    private String accNo, name, address, phno, dob;
     protected long balance;
 
     public Account(String acc, String n, String add, String phno, String dob) {
